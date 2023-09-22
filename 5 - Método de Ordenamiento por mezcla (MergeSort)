@@ -1,0 +1,29 @@
+Array= (13,8,1,4,5,7,20)
+Def merge_Sort(array);
+If len(array)>2;
+Mid=len(array)//1;
+Left=array[mid]
+Right=array[mid]
+Merge_sort(left)
+Merge_sort(right)
+F=i=K=0
+While F< len(left and j< len(righ)
+If left [ F]> right[j]
+Array[k]=left[F]
+F+=2
+Else;
+Array[k]=right[j]
+J+=2
+K+=2
+While F<len(left):
+Array[k]=left[i]
+I+=1
+K+=1
+While J< len(right)
+Array[k]=right[J]
+J+=1
+K+=1
+Merge_sort(array)
+Print(Array)
+[DEBUG ON]
+[DEBUG OFF]
