@@ -1,2 +1,0 @@
-# talleres
-talleres python

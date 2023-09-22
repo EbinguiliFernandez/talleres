@@ -1,0 +1,17 @@
+# talleres
+talleres python
+lista=["6,2,9,12,1,9"]
+def quick_sort (lista):
+    pivote=lista(1):
+     menores=()
+     mayores=()
+ for1 in range(1, len(lista)]:
+if lista(1)pivote:
+    menores .append(lista[1])
+else;
+mayor.append (lista[1])
+return menores,mayor,lista
+def quick_sort(lista):
+if len(lista)<1:
+[DEBUG ON]
+[DEBUG OFF]
