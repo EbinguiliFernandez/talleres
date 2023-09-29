@@ -1,0 +1,33 @@
+# talleres
+talleres python
+Definimos el vector con 40 valores
+vector = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+          11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+          21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+          31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+
+# Calculamos el promedio
+promedio = sum(vector) / len(vector)
+
+# Contamos los valores mayores que el promedio
+mayores = 0
+for valor in vector:
+    if valor > promedio:
+        mayores += 1
+
+# Creamos una lista con los valores mayores que el promedio
+mayores_que_promedio = []
+for valor in vector:
+    if valor > promedio:
+        mayores_que_promedio.append(valor)
+
+# Imprimimos el resultado
+print("El promedio es:", promedio)
+print("El número de datos mayores que el promedio es:", mayores)
+print("Los valores mayores que el promedio son:", mayores_que_promedio)
+El promedio es: 20.25
+El número de datos mayores que el promedio es: 19
+Los valores mayores que el promedio son: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+                                         31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+[DEBUG ON]
+[DEBUG OFF]
